@@ -20,7 +20,7 @@
 
 (define Culote
   (lambda (culona)
-    (if(eqv? culona 'big)
+    (if(eqv? culona 'small)
     "Yeahhh"
     "Nooo"
     )))
