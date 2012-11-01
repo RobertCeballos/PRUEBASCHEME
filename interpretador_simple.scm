@@ -24,7 +24,7 @@
     "Yeahhh"
     "Nooo"
     )))
-(Culote 'small)
+(Culote 'big)
 
 (define scanner-spec-simple-interpreter
 '((white-sp
