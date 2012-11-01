@@ -18,6 +18,14 @@
 ;******************************************************************************************
 ;Especificación Léxica
 
+(define Culote
+  (lambda (culona)
+    (if(eqv? culona 'big)
+    "Yeahhh"
+    "Nooo"
+    )))
+(Culote 'big)
+
 (define scanner-spec-simple-interpreter
 '((white-sp
    (whitespace) skip)
