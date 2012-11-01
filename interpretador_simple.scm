@@ -42,7 +42,7 @@
 ;     primapp-exp)
     
     (expression
-     ("("(separated-list expression ",")primitive " )")
+     ("("(separated-list expression " , ")primitive " )")
       primapp-exp)
     
     (primitive ("+") add-prim)
